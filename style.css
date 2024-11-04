@@ -1,0 +1,338 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    
+
+
+}
+.main {
+    height: 100vh;
+    overflow-x: hidden;
+    
+    
+  
+}
+/* navbar section  */
+.navigation {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    
+    /* padding-top: 10px; */
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #299c4f;
+    color: white;
+    font-size: 2.3rem;
+    position: fixed;
+    z-index: 4;
+    
+    border-bottom: 1px solid black;
+
+}
+#list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: 1.2rem;
+    align-items: center;
+    padding-left: 0px;
+   
+    
+}
+
+#list:hover>:not(:hover)
+
+{
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+#list:hover {
+    
+}
+/* navbar section  */
+
+/* ------------------------------------------------- */
+/* main page heading  */
+
+.solution {
+    display: flex;
+    
+   
+    height: 60px;
+    padding-left: 250px;
+    color: green;
+    font-size: 0.1rem;
+
+}
+.solution h1 {
+    font-size: 2.6rem;
+    height: fit-content;
+    width: 80%;
+    border-bottom: inset 5px #40e286;
+}
+
+
+
+/* ------------------------------------------------- */
+/* content one -------------------------------- */
+.contentone {
+    height: 600px;
+    background-color: #00bf54;
+    width: 100dvw;
+ 
+    
+}
+#heading {
+    
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 3.3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    color: transparent;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/761/372/39/nature-landscape-greenery-field-wallpaper-thumb.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    filter: drop-shadow(6px 6px 1px rgb(7, 7, 7));
+    
+}
+.images {
+    display: flex;
+    gap: 10px;
+    padding-top: 50px;
+    padding-left: 23%;
+
+}
+
+
+
+#dots {
+    height: 10px;
+    width: fit-content;
+    padding-top: 100px;
+}
+
+.images h1 {
+    width: fit-content;
+}
+
+
+.images img {
+    
+    height: 200px;
+    width: 200px;
+    
+}
+
+.problem {
+    
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.para {
+    
+    height: 500px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    line-height: 40px;
+    padding-left: 80px;
+}
+
+.solution2 {
+ 
+    height: 600px;
+    
+    
+}
+.solution2 h1 {
+    font-size: 2.6rem;
+    
+
+    border-bottom: inset 5px #40e286;
+}
+#solutionsdiv {
+    padding-left: 250px;
+    width: 70%;
+    height: 120px;
+    color: green;
+}
+
+
+
+.cardcontainre {
+    display: flex;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    padding-left: 260px;
+    
+}
+
+
+
+
+
+.box {
+    background-color: #00bf54;
+    height: 350px;
+    width: 300px;
+    
+    
+    
+}
+
+.box img {
+    padding-top: 30px;
+    height: 150px;
+    padding-left: 75px;
+
+}
+.box h2 {
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+
+}
+
+.box:nth-of-type(1),
+.box:nth-of-type(3),
+.box:nth-of-type(6),
+.box:nth-of-type(8)
+{
+    background-color: #299c4f;
+}
+
+.contenthree {
+    position: relative;
+    height: auto;
+    margin-top: 275px;
+    
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 247px;
+    padding-top: 20px;
+    
+    
+
+
+}
+.imgone{
+    border: 3px rgba(0, 206, 0, 0.966) solid;
+    height: 600px;
+    padding: 4px;
+    gap: 3px;
+    width: fit-content;
+    display: flex;
+    position: relative;
+    
+    
+}
+
+.imgone img { 
+   
+    width: 600px;
+    height: 600px;
+    
+}
+
+.imgone p {
+    
+    height: fit-content;
+    
+    padding: 10px;
+    top: 80px;
+    left: 200px;
+    background-color: greenyellow;
+}
+
+#pstart {
+    
+    position: absolute;
+    padding: 10px;
+    top: 65px;
+    left: -40px;
+    background-color: greenyellow;
+}
+
+
+#ptwo {
+    
+    position: absolute;
+    padding: 10px;
+    top: 65px;
+    left: -40px;
+    background-color: greenyellow;
+}
+
+#pthree {
+    
+    position: absolute;
+    
+    width: 250px;
+    padding: 10px;
+    top: 520px;
+    left: 1100px;
+    background-color: greenyellow;
+}
+
+#ptfour {
+    
+    position: absolute;
+    padding: 10px;
+    top: 65px;
+    left: -40px;
+    background-color: greenyellow;
+}
+
+#pfive{
+    
+    position: absolute;
+    width: 250px;
+    padding: 10px;
+    top: 520px;
+    left: 1100px;
+    background-color: greenyellow;
+}
+
+.next-heading {
+    width: 1150px;
+    margin-right: 30px;
+    padding-left: 20px;
+    
+    
+   
+    height: 60px;
+    color: green;
+    
+
+}
+.Profit-Distribution h1 {
+    font-size: 2.6rem;
+    height: fit-content;
+   
+    border-bottom: inset 5px #40e286;
+}
+
+.profit {
+    height: 400px;
+    width: 1000px;
+    margin-left: 300px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
