@@ -335,6 +335,33 @@
     
 }
 
+
+#custom-footer {
+    background: linear-gradient(rgb(0, 216, 0), rgb(59 59 59));
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #custom-footer p {
+    margin: 0;
+  }
+  
+  #custom-footer nav {
+    margin-top: 10px;
+  }
+  
+  #custom-footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  #custom-footer nav a:hover {
+    text-decoration: underline;
+  }
+  
+
 ::-webkit-scrollbar {
     width: 20px;
     border-radius: 20px;
