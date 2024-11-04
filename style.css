@@ -335,4 +335,18 @@
     
 }
 
+::-webkit-scrollbar {
+    width: 20px;
+    border-radius: 20px;
+
+}
+::-webkit-scrollbar {
+    background: #b6b6b667;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#53ff03, #00ddec);
+    border-radius: 20px;
+}
+
 
